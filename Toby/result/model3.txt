@@ -1,0 +1,15 @@
+EfficientNet B0:
+
+*Update:
+_ Using strong augment for minority class, slightly augment for majority class
+_ Use new weight classes 
+_ Oversampling minority 30 time. In this dataset, the majority is 54 time with minority 
+
+class_weight = [0.77683887, 1.40305238]
+
+*Result:
+_ Hope it will work
+
+
+* Hope for model 3:
+_ Focal loss

@@ -1,0 +1,13 @@
+*.png
+*.jpeg
+*.jpg
+*.dcm
+
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+*.zip
+*.rar
+*.rar4

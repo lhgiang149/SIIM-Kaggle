@@ -1,0 +1,20 @@
+EfficientNet B0:
+
+*Update:
+_ Only augment for minority class, using strong augment (Done)
+_ Use weight classes approach
+_ Using new mean and variance from skin's dataset (Done)
+This mean and std was scale from image which read by opencv, so the oder of them is Blue-Green-Red layer.
+
+Mean: [0.5911671105919415, 0.6210192607648148, 0.8060773466167724]
+Std: [0.11696385835577477, 0.10510329457057871, 0.09194555179202961]
+
+class_weight = [1,2]
+
+*Result:
+_ overfit with Malignant image, Benign accuracy is only 50%
+
+
+* Hope for model 3:
+_ Replace normal oversample by SMOTE: in some way, SMOTE is not use for image. 
+Will research more about this problem.

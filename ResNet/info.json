@@ -1,0 +1,1 @@
+{"ResNet18": {"Basic": true, "residual": [2, 2, 2, 2]}, "ResNet34": {"Basic": true, "residual": [3, 4, 6, 3]}, "ResNet50": {"Basic": false, "residual": [3, 4, 6, 3]}, "ResNet101": {"Basic": false, "residual": [3, 4, 23, 3]}, "ResNet152": {"Basic": false, "residual": [3, 8, 36, 3]}}

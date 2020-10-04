@@ -1,0 +1,12 @@
+Normal ResNet50:
+
+*Update:
+_ Upscale input 448x448
+_ Oversampling
+_ Add noise (augment, dropout)
+_ Cross Entropy loss
+
+*Result:
+_ Loss: 0.011
+_ Valid auc score: 0848
+_ Public auc score: 0.852
